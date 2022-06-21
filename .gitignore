@@ -10,7 +10,6 @@ x64/
 x86/
 
 # Build configs
-[Pp]ublishProfiles/
 .vs/
 
 # Node.js Modules
