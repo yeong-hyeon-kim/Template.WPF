@@ -13,7 +13,7 @@
  5. [AppNotify](#INotifyPropertyChanged)에 Binding에 이용할 속성(Property)를 정의합니다.
     * 값이 변경되면 OnPropertyChanged("PropertyPath")를 호출하며 이벤트를 발생시킵니다.
     * 바인딩 업데이트 조건에 이용됩니다.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
-6. Command를 이용하여 Button Click 이벤트를 대체합니다.
+ 6. Command를 이용하여 Button Click 이벤트를 대체합니다.
     * [AppCommand](./WPF-MVVM/ViewModel/Command/AppCommand.cs)를 템플릿으로 이용하여 활용합니다.
     * [ViewModel](./WPF-MVVM/ViewModel/AppViewModel.cs)에 [AppCommand](./WPF-MVVM/ViewModel/Command/AppCommand.cs) 타입의 속성을 정의합니다.
     * [ViewModel](./WPF-MVVM/ViewModel/AppViewModel.cs) 생성자에서 [AppCommand](./WPF-MVVM/ViewModel/Command/AppCommand.cs)를 초기화 합니다. 
@@ -34,7 +34,7 @@
 
 ### INotifyPropertyChanged
 
-* 속성(`Property`)의 값 변경을 감지하여 이벤트를 발생시키는 역할.
+* 속성(`Property`)의 값 변경을 감지하여 이벤트를 발생시키는 역할입니다.
 * `OnPropertyChanged(string Message)` 바인딩 시 `PropertyPath`로 이용됩니다.
 
 ### MVVM 관계
