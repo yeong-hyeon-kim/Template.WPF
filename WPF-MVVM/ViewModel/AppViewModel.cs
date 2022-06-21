@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
+using WPF_MVVM.Models;
 using WPF_MVVM.ViewModel.Command;
 
 namespace WPF_MVVM.ViewModel
 {
     public class AppViewModel : AppNotify
     {
-        //AppContext Context = new AppContext();
+        Context Context = new Context();
 
         public AppCommand AppCmd { get; set; }
 

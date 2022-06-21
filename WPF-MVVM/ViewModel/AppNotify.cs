@@ -1,6 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+﻿using System.ComponentModel;
 
 namespace WPF_MVVM.ViewModel
 {
@@ -10,9 +8,11 @@ namespace WPF_MVVM.ViewModel
 
         string _TitleContent = "Welcome To WPF World!";
 
-        public string TitleContent { 
+        public string TitleContent
+        {
             get { return _TitleContent; }
-            set {
+            set
+            {
                 _TitleContent = value;
                 OnPropertyChanged("TitleContent");
             }
