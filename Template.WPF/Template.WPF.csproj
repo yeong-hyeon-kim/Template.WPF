@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>WPF_MVVM</RootNamespace>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Template.WPF</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>

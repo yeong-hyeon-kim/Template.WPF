@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
-using WPF_MVVM.Models;
-using WPF_MVVM.ViewModel.Command;
+using Template.WPF.Models;
+using Template.WPF.ViewModel.Command;
 
-namespace WPF_MVVM.ViewModel
+namespace Template.WPF.ViewModel
 {
     public class AppViewModel : AppNotify
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace WPF_MVVM.ViewModel.Command
+namespace Template.WPF.ViewModel.Command
 {
     public class AppCommand : ICommand
     {

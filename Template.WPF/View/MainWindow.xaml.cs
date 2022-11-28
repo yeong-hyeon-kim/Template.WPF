@@ -1,8 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Data;
-using WPF_MVVM.ViewModel;
+using Template.WPF.ViewModel;
 
-namespace WPF_MVVM
+namespace Template.WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -14,7 +14,7 @@ namespace WPF_MVVM
             InitializeComponent();
 
             AppViewModel AppView = new AppViewModel();
-            
+
             // View와 ViewModel 바인딩
             DataContext = AppView;
 

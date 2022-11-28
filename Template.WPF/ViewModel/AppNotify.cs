@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace WPF_MVVM.ViewModel
+namespace Template.WPF.ViewModel
 {
     public class AppNotify : INotifyPropertyChanged
     {

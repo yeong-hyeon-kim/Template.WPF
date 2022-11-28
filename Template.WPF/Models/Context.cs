@@ -5,7 +5,7 @@ using System.Data.OleDb;
 using System.IO;
 using System.Text;
 
-namespace WPF_MVVM.Models
+namespace Template.WPF.Models
 {
     public class Context
     {

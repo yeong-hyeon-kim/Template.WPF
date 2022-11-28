@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace WPF_MVVM.Models
+namespace Template.WPF.Models
 {
     public class Log
     {

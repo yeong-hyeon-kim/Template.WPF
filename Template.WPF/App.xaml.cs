@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WPF_MVVM
+namespace Template.WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml
